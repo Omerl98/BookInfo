@@ -1,9 +1,20 @@
 {% extends 'base.html' %}
 
 {% block head %}
-</h1>Template</h1>
 {% endblock %}
 
 {% block body %}
-
+    {% for book in books %}
+    <div class="media content-section d-flex">
+        <img class="align-self-start mr-3 mt-5" src="{{book.cover}}" width="100">
+        <div class="media-body p-5">
+          <h5 class="mt-0">{{book.name}}</h5>
+          <p>Author: {{book.author}}</p>
+          <p>Publisher: {{book.publisher}}</p>
+          <p>Publish Year: {{book.publishDate}}</p>
+        </div>
+        <div class ></div>
+      </div>
+    {% endfor %}
 {% endblock %}
+
