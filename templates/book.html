@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="media params">
+    <img class="align-self-center mr-3" src="{{book.imageLink}}" >
+    <div class="media-body p-5">
+      <h5 class="mt-0 book-title">{{book.name}}</h5>
+      <p>Author: <span class="authors">{{book.authors}}</span></p>
+      <p>Publisher: <span class="publisher">{{book.publisher}}</span></p>
+      <p>Publish Date: <span class="publishDate">{{book.publishDate}}</span></p>
+      <p>Page Count: {{book.pageCount}}</p>
+      <p>Categories: {{book.categories}}</p>
+    </div>
+   
+    <div class ></div>
+  </div>
+  <h5 class="description">Description</h5>
+  <p class = "description">
+    {{book.description}}
+    </p>
+{% endblock %}
+

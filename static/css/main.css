@@ -1,0 +1,43 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 0;
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+
+  .media {
+    display: flex;
+    }
+
+  .params {
+    margin: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .description {
+    margin: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0;
+  }
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+ 
+  .profile-userpic img {
+    float: none;
+    margin: auto;
+    margin-left: 2rem;
+    width: 150px;
+
+  }
