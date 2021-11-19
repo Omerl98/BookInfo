@@ -18,7 +18,7 @@ projectfolder/env/scripts/Activate.bat
 ```
   pip install -r requirements.txt
 ```
-5. write in the terminal
+5. run
 ```
   set Flask_APP=app.py
   flask run
