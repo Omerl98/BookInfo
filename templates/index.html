@@ -5,13 +5,14 @@
 
 {% block body %}
     {% for book in books %}
-    <div class="media content-section d-flex">
+    <div class="media content-section">
         <img class="align-self-start mr-3 mt-5" src="{{book.imageLink}}" width="100">
         <div class="media-body p-5">
-          <h5 class="mt-0">{{book.name}}</h5>
-          <p>Author: {{book.authors}}</p>
-          <p>Publisher: {{book.publisher}}</p>
-          <p>Publish Date: {{book.publishDate}}</p>
+          <h5 class="mt-0 book-title">{{book.name}}</h5>
+          <p>Author: <span class="authors">{{book.authors}}</span></p>
+          <p>Publisher: <span class="publisher">{{book.publisher}}</span></p>
+          <p>Publish Date: <span class="publishDate">{{book.publishDate}}</span></p>
+          <a href="{{book.url}}"> Show More</a>
         </div>
         <div class ></div>
       </div>
