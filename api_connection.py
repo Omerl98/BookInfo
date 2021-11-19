@@ -15,7 +15,8 @@ def get_book_info(isbn = "1593276036"):
     publishDate = info["publishedDate"]
     imageLink = book_data["items"][0]['volumeInfo']['imageLinks']['thumbnail']
     if 'categories' in info.keys():
-        categories = info["categories"]
+        categoriesArr = info["categories"]
+        categories = ", ".join(categoriesArr)
     else:
         categories = "None"
     desc = info["description"]
@@ -23,4 +24,4 @@ def get_book_info(isbn = "1593276036"):
     return({"name":title,"authors":authors,"publishDate": publishDate,"publisher":publisher, "imageLink":imageLink, "categories":categories, "description":desc, "pageCount":pageCount})
 
 
-get_book_info()
+get_book_info("1781100233")
