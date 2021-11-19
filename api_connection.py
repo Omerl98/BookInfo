@@ -22,6 +22,3 @@ def get_book_info(isbn = "1593276036"):
     desc = info["description"]
     pageCount = info["pageCount"]
     return({"name":title,"authors":authors,"publishDate": publishDate,"publisher":publisher, "imageLink":imageLink, "categories":categories, "description":desc, "pageCount":pageCount})
-
-
-get_book_info("1781100233")
