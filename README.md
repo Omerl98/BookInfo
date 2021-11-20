@@ -14,11 +14,11 @@ virtualenv env
 
 for windows:
 ```
-env/scripts/Activate.bat
+  env/scripts/Activate.bat
 ```
 for mac:
 ```
-source env/bin/activate
+  source env/bin/activate
 ```
 
 4. Install python packages specified in requirements.txt
@@ -34,6 +34,6 @@ for windows:
 ```
 for mac:
 ```
-export FLASK_APP=app.py
-flask run
+  export FLASK_APP=app.py
+  flask run
 ```
