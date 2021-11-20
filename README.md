@@ -10,7 +10,8 @@ a Web App that provides information about random books.
 virtualenv env
 ```
 
-3. Activate the virual environment
+3. Open BookInfo folder through your terminal
+4. Activate the virual environment
 
   for windows:
 ```
