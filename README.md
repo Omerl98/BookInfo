@@ -12,11 +12,11 @@ virtualenv env
 
 3. Activate the virual environment
 
-for windows:
+  for windows:
 ```
   env/scripts/Activate.bat
 ```
-for mac:
+  for mac:
 ```
   source env/bin/activate
 ```
@@ -27,12 +27,12 @@ for mac:
 ```
 5. run
 
-for windows:
+  for windows:
 ```
   set Flask_APP=app.py
   flask run
 ```
-for mac:
+  for mac:
 ```
   export FLASK_APP=app.py
   flask run
