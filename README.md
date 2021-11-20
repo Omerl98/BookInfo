@@ -30,7 +30,7 @@ pip install virtualenv
 ```
   pip install -r requirements.txt
 ```
-5. run (change "py" to your relevant python interpreter, i.e python3, python, etc..)
+5. run (change "py" to your relevant python interpreter if needed, i.e python3, python, etc..)
 ```
 py app.py
 ```
