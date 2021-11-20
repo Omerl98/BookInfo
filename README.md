@@ -49,3 +49,8 @@ or, if that didn't work:
   flask run
 ```
 
+6. enter this url in your web browser:
+```
+localhost:5000
+```
+
