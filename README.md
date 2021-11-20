@@ -5,14 +5,17 @@ a Web App that provides information about random books.
 
 1. Clone the repo
 2. Install Python and Pip
-3. Open BookInfo folder through your terminal
-4. Install virtualenv and create a virtual environment in your project folder.
+3. Open BookInfo folder through your terminal.
+4. Install virtualenv and 
 ```
 pip install virtualenv
-virtualenv env
 ```
 
-4. Activate the virual environment
+4. Create a virtual environment in your project folder.
+```
+  virtualenv env
+```
+5. Activate the virual environment
 
   for windows:
 ```
