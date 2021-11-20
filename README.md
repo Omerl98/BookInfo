@@ -42,3 +42,9 @@ pip install virtualenv
   export FLASK_APP=app.py
   flask run
 ```
+
+or, if that didn't work (change "py" to your relevant python interpreter):
+```
+py app.py
+```
+
