@@ -6,7 +6,7 @@ a Web App that provides information about random books.
 1. Clone the repo
 2. Install Python and Pip
 3. Open BookInfo folder through your terminal.
-4. Install virtualenv and 
+4. Install virtualenv
 ```
 pip install virtualenv
 ```
@@ -30,20 +30,19 @@ pip install virtualenv
 ```
   pip install -r requirements.txt
 ```
-5. run (change "py" to your relevant python interpreter)
-
+5. run (change "py" to your relevant python interpreter, i.e python3, python, etc..)
 ```
 py app.py
 ```
 
 or, if that didn't work:
 
-for windows:
+for windows
 ```
   set Flask_APP=app.py
   flask run
 ```
-  for mac:
+  for mac
 ```
   export FLASK_APP=app.py
   flask run
