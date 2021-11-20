@@ -11,6 +11,7 @@ virtualenv env
 ```
 
 3. Activate the virual environment
+
 for windows:
 ```
 env/scripts/Activate.bat
