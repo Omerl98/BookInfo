@@ -36,9 +36,9 @@ pip install virtualenv
 py app.py
 ```
 
-
 or, if that didn't work:
-  for windows:
+
+for windows:
 ```
   set Flask_APP=app.py
   flask run
