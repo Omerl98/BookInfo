@@ -25,6 +25,7 @@ source env/bin/activate
   pip install -r requirements.txt
 ```
 5. run
+
 for windows:
 ```
   set Flask_APP=app.py
